@@ -50,6 +50,9 @@ Example:
 ### Show a test of a number of highlight groups
 :highlight
 
+### Show only highlight groups starting with "Diag"
+:filt Diag hi
+
 ## Show definitions
 ### Show command definition
 :verbose :com <Command>
@@ -65,3 +68,6 @@ Example:
 :verbose set <Option>?
 Example:
 :verbose set iskeyword?
+## Edit command history
+Open command-line window            q:
+After started typing the command    CTRL+F (:h cedit)
